@@ -12,15 +12,15 @@ Author : François Coulombeau
 Example
 -------
 
-In this example, we open an image and build a $+\infty;6;4;6$ hyperbolic tessalation :
+In this example, we open an image and build a (∞;6;4;6) hyperbolic tessalation :
 
 .. code:: python
-	import confmap as cm
-	import numpy as np
-	
-	im = cm.HyperbolicTiling('./Sources/Reflets.jpg',0,'./Exports/',600,600)
-	
-	im.transform(sommets=(np.inf,6,4,6),nbit=20,backcolor=[255,255,255])
+    import confmap as cm
+    import numpy as np
+    
+    im = cm.HyperbolicTiling('./Sources/Reflets.jpg',0,'./Exports/',600,600)
+    
+    im.transform(sommets=(np.inf,6,4,6),nbit=20,backcolor=[255,255,255])
 
 which leeds to this image :
 
