@@ -15,6 +15,7 @@ Example
 In this example, we open an image and build a (∞;6;4;6) hyperbolic tessalation :
 
 .. code:: python
+
     import confmap as cm
     import numpy as np
     
