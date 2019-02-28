@@ -44,7 +44,7 @@ ConfMap depends on the Python modules Numpy_, `Matplotlib`_ and moviepy_ which w
 
 .. code:: bash
 
-    $ (sudo) pip install moviepy
+    $ (sudo) pip install confmap
 
 Maintainers
 -----------
