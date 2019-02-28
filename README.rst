@@ -49,7 +49,7 @@ ConfMap depends on the Python modules Numpy_, `Matplotlib`_ and moviepy_ which w
 Maintainers
 -----------
 
-- Oioi_ (owner)
+- `François Coulombeau`_ (owner)
 
 
 .. ConfMap links
@@ -70,4 +70,4 @@ Maintainers
 .. _`Sphinx`: http://www.sphinx-doc.org/en/master/setuptools.html
 
 .. People
-.. _Oioi: https://github.com/FCoulombeau
+.. _`François Coulombeau`: https://github.com/FCoulombeau
