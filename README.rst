@@ -24,7 +24,7 @@ In this example, we open an image and build a $+\infty;6;4;6$ hyperbolic tessala
 
 which leeds to this image :
 
-.. image:: https://github.com/FCoulombeau/confmap/examples/Reflets-0.jpg
+.. image:: https://github.com/FCoulombeau/confmap/blob/master/examples/Reflets-0.jpg
     :align: center
     :alt: [tessalation]
 
