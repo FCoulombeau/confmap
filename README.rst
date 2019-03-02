@@ -44,12 +44,12 @@ ConfMap depends on the Python modules Numpy_, `Matplotlib`_ and moviepy_ which w
 
 .. code:: bash
 
-    $ (sudo) pip install confmap
+    $ (sudo) pip install moviepy
 
 Maintainers
 -----------
 
-- `François Coulombeau`_ (owner)
+- Oioi_ (owner)
 
 
 .. ConfMap links
@@ -70,4 +70,4 @@ Maintainers
 .. _`Sphinx`: http://www.sphinx-doc.org/en/master/setuptools.html
 
 .. People
-.. _`François Coulombeau`: https://github.com/FCoulombeau
+.. _Oioi: https://github.com/FCoulombeau

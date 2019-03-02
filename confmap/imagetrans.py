@@ -460,7 +460,7 @@ class ImageTransform(ComplexMapping):
         if auto:
             self.similitude(c=2/np.pi)
         
-    def arctan(self,auto=True,c=1.,d=0.):
+    def arctan(self,auto=True,c=1.,d=0.,hyperb=False,dec=0):
         """Mapping z->atan(z)
         If auto==True, complex number d is expressed in percent of the 
         input shape before transformation (which is the output shape
@@ -472,7 +472,7 @@ class ImageTransform(ComplexMapping):
                 d=d.real*self._input_scaling+1j*d.imag
             else:
                 d=d.real*self._output_scaling+1j*d.imag
-        self.nouvtrans(*_complex_arctan(c,d))
+        self.nouvtrans(*_complex_arctan(c,d,hyperb,dec))
         if auto:
             self.similitude(c=2/np.pi)
         

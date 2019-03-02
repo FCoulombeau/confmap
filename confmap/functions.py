@@ -186,8 +186,11 @@ def _complex_arcsine(c=1.,d=0.):
 def _complex_arccos(c=1.,d=0.,mod=0):
     return (lambda u:np.cosh(u.real)*np.cos(u.imag)+1j*np.sin(u.imag)*np.sinh(u.real),c,d)
 
-def _complex_arctan(c=1.,d=0.):
-    return (lambda u:(np.tanh(u.real)+1j*np.tan(u.imag))/(1+np.tanh(u.real)*1j*np.tan(u.imag)),c,d)
+def _complex_arctan(c=1.,d=0.,hyperb=False,dec=0):
+    if hyperb:
+        return (lambda u:(np.tanh(u.real+((u.imag+np.pi/2)//np.pi-1/2)*dec)+1j*np.tan(u.imag))/(1+np.tanh(u.real+((u.imag+np.pi/2)//np.pi-1/2)*dec)*1j*np.tan(u.imag)),c,d)
+    else:
+        return (lambda u:(np.tanh(u.real)+1j*np.tan(u.imag))/(1+np.tanh(u.real)*1j*np.tan(u.imag)),c,d)
     
 def _complex_logarithm(c=1.,d=0.):
     return (lambda u:np.exp(u.real)*(np.cos(u.imag)+1j*np.sin(u.imag)),c,d)
