@@ -25,7 +25,7 @@ In this example, we open an image and build a (∞;6;4;6) hyperbolic tessalation
 
 which leeds to this image :
 
-.. image:: https://github.com/FCoulombeau/confmap/blob/master/examples/Reflets-0.jpg
+.. image:: ./examples/Reflets-0.jpg
     :align: center
     :alt: [tessalation]
 
@@ -44,12 +44,12 @@ ConfMap depends on the Python modules Numpy_, `Matplotlib`_ and moviepy_ which w
 
 .. code:: bash
 
-    $ (sudo) pip install moviepy
+    $ (sudo) pip install confmap
 
 Maintainers
 -----------
 
-- Oioi_ (owner)
+- `François Coulombeau`_ (owner)
 
 
 .. ConfMap links
@@ -70,4 +70,4 @@ Maintainers
 .. _`Sphinx`: http://www.sphinx-doc.org/en/master/setuptools.html
 
 .. People
-.. _Oioi: https://github.com/FCoulombeau
+.. _`François Coulombeau`: https://github.com/FCoulombeau
